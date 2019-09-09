@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{44F20338-E487-44C3-9C57-AEB9A4D7E0BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{0DE3FABF-9E0F-441F-B7CD-9536D3A78D7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44F20338-E487-44C3-9C57-AEB9A4D7E0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F20338-E487-44C3-9C57-AEB9A4D7E0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F20338-E487-44C3-9C57-AEB9A4D7E0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F20338-E487-44C3-9C57-AEB9A4D7E0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE3FABF-9E0F-441F-B7CD-9536D3A78D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE3FABF-9E0F-441F-B7CD-9536D3A78D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE3FABF-9E0F-441F-B7CD-9536D3A78D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE3FABF-9E0F-441F-B7CD-9536D3A78D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {943DB052-5837-451A-A86C-F8C8610B81B8}
+	EndGlobalSection
+EndGlobal
