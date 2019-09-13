@@ -1,0 +1,18 @@
+What does first virsion of .Net framework include ?
+What is mono ?
+What is MVC ?
+What is Razor ?
+
+Explain differents between .net framework and .net core
+What kinds of application you can develop with .net ?
+What are c# complier and JIT complier ?
+What does .net core consist of ?
+
+What is FCL ?
+What is CLR ?
+What is CTS ?
+
+Which members does CTS specification state that a type can contain ? Explain each type
+Explain each kind of access modifiers in C#
+
+
