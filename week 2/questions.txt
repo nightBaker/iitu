@@ -1,0 +1,15 @@
+What methods does every object inherite from System.Object ? Describe each
+What does 'new' operator ?
+What is casting ?
+What is process ?
+What is thread ? 
+What is heap ?
+What is stack ?
+What are primitive types ? List them 
+What is reference type ?
+What is value type ?
+What is static class ?
+Describe abstract, virtual and ovveride keywords 
+Describe sealed and new keywords with respect of applying to class, methods, properties , events and fields
+List fields modifiers 
+List ways of passing parameters to methods
