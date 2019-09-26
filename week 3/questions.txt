@@ -1,0 +1,13 @@
+Describe char type
+Describe string type 
+Describe array type 
+Describe difference between array and array.copy()
+Describe delegates (delegate, action , func)
+Describe nullable value types
+Describe Null-Coalescing Operator
+
+What is entry point of asp.net core app 
+What is responsobility of WebHost.CreateDefaultBuilder method?
+What does asp.net core mvc project have structure ?
+What is layout ?
+What are _ViewStart and _ViewImports ?
