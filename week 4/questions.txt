@@ -1,0 +1,20 @@
+What is exception ?
+What is exception handling ?
+Describe 'try' block ?
+Describe 'catch' block ?
+Describe 'finnaly' block ?
+What is catch type ? 
+Describe list of System.Exception properties.
+What do you know about StackTrace property of System.Exception ?
+Best practies of exception handling ?
+What is unhandled exception ?
+
+What is routing ?
+Describe routing system characteristics 
+What is url matching ?
+What information RouteContext.RouteData has ?
+Why do we use url generation ?
+What is route parameter ?
+What is route contstraint ? 
+What is conventional routing ?
+What is attribute routing ? 
