@@ -1,0 +1,18 @@
+C#’s new operator causes the CLR to perform the following steps.
+Explain reference counting algorithm.
+Explain Referencing tracking.
+Explain marking phase of GC.
+Explain Сompacting phase of GC.
+What does generational garbage collector mean ? What are generations ?
+Explain the difference between large and usual objects
+
+Ways of returning view in asp.net ? How does view discovery work ?
+Describe two approaches for passing data to view 
+ViewData vs ViewBag	
+What is partial view ? When to use ?
+Ways of referencing partial view. Partial view discovery.
+
+What is model binding 
+Model binding targets 
+Model binding sources
+
