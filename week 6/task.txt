@@ -1,0 +1,14 @@
+Continue to work on your projects.
+
+First requirement:
+your project should contain at least 7 models
+with all relationships types
+
+1. one to one
+2. one to many
+3. many to many
+
+for all model there should be controllers with CRUD actions
+and related views
+
+All data should be stored in database
