@@ -1,0 +1,74 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model iitu.web.example.Models.Movies.Movie
+
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h1 class="title is-1">Add</h1>
+
+<h4 class="subtitle is-4">Movie</h4>
+<hr />
+<div class="column is-two-fifths">
+    <div class="box">
+        <form asp-action="Add">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="field">
+                <label asp-for="Id" class="control-label"></label>
+                <div class="control">
+                    <input asp-for="Id" class="input" />
+                    <span asp-validation-for="Id" class="has-text-danger"></span>
+                </div>
+            </div>
+            <div class="field">
+                <label asp-for="Poster" class="control-label"></label>
+                <div class="control">
+                    <input asp-for="Poster" class="input" />
+                    <span asp-validation-for="Poster" class="has-text-danger"></span>
+                </div>
+            </div>
+            <div class="field">
+                <label asp-for="Name" class="control-label"></label>
+                <div class="control">
+                    <input asp-for="Name" class="input" />
+                    <span asp-validation-for="Name" class="has-text-danger"></span>
+                </div>
+            </div>
+            <div class="field">
+                <label asp-for="Author" class="control-label"></label>
+                <div class="control">
+                    <input asp-for="Author" class="input" />
+                    <span asp-validation-for="Author" class="has-text-danger"></span>
+                </div>
+            </div>
+            <div class="field">
+                <label asp-for="Genre" class="control-label"></label>
+                <div class="control">
+                    <input asp-for="Genre" class="input" />
+                    <span asp-validation-for="Genre" class="has-text-danger"></span>
+                </div>
+            </div>
+            <div class="field">
+                <label asp-for="CreatedAt" class="control-label"></label>
+                <div class="control">
+                    <input asp-for="CreatedAt" class="input" />
+                    <span asp-validation-for="CreatedAt" class="has-text-danger"></span>
+                </div>
+            </div>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-link">Submit</button>
+                </div>             
+            </div>
+
+            
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
