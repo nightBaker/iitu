@@ -12,4 +12,4 @@ At least one remote validation
 At least one custom attirubute validation
 At least one model should implements IValidatableObject 
 
-Validation should works on both client and server sides
+Validation should work on both client and server sides
