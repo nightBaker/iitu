@@ -1,0 +1,15 @@
+Continue to work on your project.
+
+Create readme.md file in the root of your project and write introduction to your project there.
+
+Validation
+
+You should use validation for all models, check state in every action of controllers
+
+Your project must contain
+
+At least one remote validation
+At least one custom attirubute validation
+At least one model should implements IValidatableObject 
+
+Validation should works on both client and server sides
