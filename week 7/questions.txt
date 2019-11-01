@@ -1,0 +1,6 @@
+What is dependency ?
+What does injecting dependency mean ?
+What is Dependency inversion principle ?
+What is Dependency injection container (Service locator) ?
+Describe services lifetime ?
+Best practices of designing services for dependency injection 
