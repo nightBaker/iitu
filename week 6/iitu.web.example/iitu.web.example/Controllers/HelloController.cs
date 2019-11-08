@@ -10,7 +10,14 @@ namespace iitu.web.example.Controllers
     {        
         public IActionResult Index()
         {
+
+            if (ModelState.IsValid)
+            {
+                //Do some works
+            }
+
             return View();
         }
     }
+
 }
