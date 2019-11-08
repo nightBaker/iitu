@@ -1,0 +1,4 @@
+What is ModelState
+What does [Required] attirubute mean regarding reference and value types
+What is different between server and client side validation 
+What are alternatives to built-in attributes
