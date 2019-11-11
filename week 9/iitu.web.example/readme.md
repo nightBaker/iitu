@@ -42,8 +42,8 @@ Let's start from testing `CalculatorController`. Now it look like
 It has business logic(BL) and returs view, so it violates **single responsibility principle **. Let's isolate our business logic(BL). Create new folder `Services` in the root of project and add `CalculatorService` to the folder.
 
 
+![Alt text](images/services.png?raw=true "services")
 
-![](https://github.com/nightBaker/iitu/tree/master/week%209/iitu.web.example/images/services.png)
 
 ```csharp
   public class CalculatorService
