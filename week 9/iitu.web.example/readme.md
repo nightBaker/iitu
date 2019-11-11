@@ -43,7 +43,7 @@ It has business logic(BL) and returs view, so it violates **single responsibilit
 
 
 
-![](\images\services.png)
+![](https://github.com/nightBaker/iitu/tree/master/week%209/iitu.web.example/images/services.png)
 
 ```csharp
   public class CalculatorService
@@ -445,5 +445,5 @@ public class MovieRepository : IMovieRepository
             services.AddScoped<IMovieRepository,MovieRepository>();
         }
 ```
-
-![](C:\Users\Shalabaev_Y\AppData\Roaming\marktext\images\2019-11-11-12-04-49-image.png)
+Run your tests
+![](https://github.com/nightBaker/iitu/tree/master/week%209/iitu.web.example/images/tests.png)
