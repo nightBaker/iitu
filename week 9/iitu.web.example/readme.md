@@ -211,7 +211,45 @@ public class MovieService
 ```
 
 ```csharp
- 
+  public class MoviesController : Controller
+    {
+        private readonly MovieService _movieService;
+
+        public MoviesController(MovieService movieService)
+        {
+            _movieService = movieService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var movies = await _movieService.GetMovies();
+            return View(movies);
+        }
+
+        [HttpGet]
+        public IActionResult Add()
+        {            
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Add(Movie movie)
+        {
+
+            await _movieService.AddAndSave(movie);
+
+            var movies = await _movieService.GetMovies();
+
+            return View("Index",movies);
+        }
+
+        public async Task<IActionResult> Search(string text)
+        {
+            var searchedMovies = await _movieService.Search(text);
+            return View("Index", searchedMovies);
+        }
+
+    }
 ```
 
 ```csharp
@@ -407,3 +445,5 @@ public class MovieRepository : IMovieRepository
             services.AddScoped<IMovieRepository,MovieRepository>();
         }
 ```
+
+![](C:\Users\Shalabaev_Y\AppData\Roaming\marktext\images\2019-11-11-12-04-49-image.png)
