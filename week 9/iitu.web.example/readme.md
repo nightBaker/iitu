@@ -446,4 +446,4 @@ public class MovieRepository : IMovieRepository
         }
 ```
 Run your tests
-![](https://github.com/nightBaker/iitu/tree/master/week%209/iitu.web.example/images/tests.png)
+![tests](images/tests.png?raw=true "tests")
