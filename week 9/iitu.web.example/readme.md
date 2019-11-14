@@ -42,8 +42,8 @@ Let's start from testing `CalculatorController`. Now it look like
 It has business logic(BL) and returs view, so it violates **single responsibility principle **. Let's isolate our business logic(BL). Create new folder `Services` in the root of project and add `CalculatorService` to the folder.
 
 
+![Alt text](images/services.png?raw=true "services")
 
-![](\images\services.png)
 
 ```csharp
   public class CalculatorService
@@ -445,5 +445,5 @@ public class MovieRepository : IMovieRepository
             services.AddScoped<IMovieRepository,MovieRepository>();
         }
 ```
-
-![](C:\Users\Shalabaev_Y\AppData\Roaming\marktext\images\2019-11-11-12-04-49-image.png)
+Run your tests
+![tests](images/tests.png?raw=true "tests")
