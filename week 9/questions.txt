@@ -1,0 +1,10 @@
+Responsibilities of UI testing
+UI testing approaches
+What is integration testing
+What is unit testing
+What is "Testable" class
+Unit vs integration testing
+What are fakes, stubs and mocks
+Advantages of unit testing
+Good practies of unit testing
+What is AAA ?
