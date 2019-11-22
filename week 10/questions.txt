@@ -1,0 +1,10 @@
+What is authentication ?
+What is authorization ?
+What is ASP.NET Core Identity ?
+
+Explain Role-based authorization.
+Explain Claims-based authorization.
+
+Describe Cookie-based authentication.
+Descibe Token-based authentication.
+What is antiforgery token ?
