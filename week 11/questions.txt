@@ -1,0 +1,8 @@
+Approaches to preserve user data and app state between requests
+Session state
+Session state behaviors
+Complex types and session state
+TempData and TempData providers
+Cookies, query string and hidden fields
+HttpContext.Items
+Cache
